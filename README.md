@@ -1,1 +1,1 @@
-# install-configure-configureManagement-tools
+# install-configure-configurationManagement-tools
