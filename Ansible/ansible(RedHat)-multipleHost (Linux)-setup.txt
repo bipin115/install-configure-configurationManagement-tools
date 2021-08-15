@@ -194,9 +194,9 @@ OR if you are not connecting using SSHkey. just ssh password then use below comm
 
 ###ping remote host by group name . dbservers
 
-ansible webservers -m ping
-ansible dbservers -m ping
-ansible all -m ping ### will ping all hosts from /etc/ansible/hosts file
+ansible webservers -m ping   ### will ping webservers group from /etc/ansible/hosts file
+ansible dbservers -m ping    ### will ping dbservers grup from /etc/ansible/hosts file
+ansible all -m ping          ### will ping all hosts from /etc/ansible/hosts file
 
 
 
